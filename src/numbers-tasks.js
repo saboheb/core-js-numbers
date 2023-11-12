@@ -19,7 +19,7 @@
  *   5, 5  => 25
  */
 function getRectangleArea(width, height) {
-  return (width * height);
+  return width * height;
 }
 
 /**
@@ -34,8 +34,8 @@ function getRectangleArea(width, height) {
  *   0    => 0
  */
 function getCircleCircumference(radius) {
-  const PI = 3.14;
-  return (PI * radius * 2)
+  const PI = 3.141592653589793;
+  return PI * radius * 2;
 }
 
 /**
@@ -50,8 +50,8 @@ function getCircleCircumference(radius) {
  *  10, 0  => 5
  *  -3, 3  => 0
  */
-function getAverage(/* value1, value2 */) {
-  throw new Error('Not implemented');
+function getAverage(value1, value2) {
+  return value1 / 2 + value2 / 2;
 }
 
 /**
