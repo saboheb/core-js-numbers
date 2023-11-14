@@ -106,19 +106,9 @@ function getLinearEquationRoot(a, b) {
  *   (0,-1) (1,0)    => π/2
  *   (0,1) (0,1)     => 0
  */
-/* function getAngleBetweenVectors(x1, y1, x2, y2) {
-  const chislitelAB = x1 * x2 + y1 * y2;
-  const znamen1 = (x1**2 + y1**2)**0.5;
-  const znamen2 = (x2**2 + y2**2)**0.5;
-  const result =  chislitelAB / znamen1 * znamen2;
-  if (result === 0) {
-    return Math.PI / 2;
-  } else if (result === -1) {
-    return Math.PI;
-  } else if (result === 1) {
-    return 0;
-  }
-} */
+function getAngleBetweenVectors(/* x1, y1, x2, y2 */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Returns a last digit of a integer number.
