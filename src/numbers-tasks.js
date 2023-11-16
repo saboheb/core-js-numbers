@@ -286,9 +286,7 @@ function getFibonacciNumber(index) {
  *   1  => 1
  */
 function getSumToN(n) {
-    for (let i = 1; i <= n; i++) {
-    return i;
-  }
+  throw new Error('Not implemented');
 }
 
 /**
